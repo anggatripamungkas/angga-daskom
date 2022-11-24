@@ -1,0 +1,68 @@
+body{
+	font:16px/1.6 ,  sans-serif;
+	background-image: url("https://1.bp.blogspot.com/-Ce00G201Fnc/WSPOslnXnlI/AAAAAAAACL0/L7Hapoyu5EYKyOCO4QXscKnsWeDyUZFXwCLcB/s1600/Ramadhan.jpg");
+	background-size: cover;
+}
+
+header{
+	background-image: url("https://tse4.mm.bing.net/th?id=OIP.GYid95fp1IahsU6Ttu1nEAHaFX&pid=Api&P=0");
+	opacity: 0.5;
+	background-size: cover;
+	text-shadow:0 0 4px rgb(0, 0, 0),
+				0 0 8px rgb(20, 255, 216),
+				0 0 40px rgb(20, 43, 255),
+				0 0 80px rgb(20, 255, 51);;
+	font-size: 75px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+a,li{
+	text-decoration: none;
+	color: rgb(42, 131, 248);
+
+}
+.aside,ul{
+	background-color: rgba(0, 0, 0, 0.40);
+	position: absolute;
+	font-size: 36px;
+	width: 28%;
+	top: 9%;
+}
+main{
+	background-color: rgba(0, 0, 0, 0.40);
+	font-size: 100px;
+	float: right;
+	margin: 8px;
+	height: 70%;
+	width: 68%;
+	top: 9%;	
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+.footer-1{
+	background-image: url("https://tse4.mm.bing.net/th?id=OIP.GYid95fp1IahsU6Ttu1nEAHaFX&pid=Api&P=0");
+	background-size: cover;
+	position: fixed;
+	opacity: 0.5;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	margin-top: 80px;
+	color: rgb(127, 140, 255);
+	font-size: 30px;
+}
+.wa img {
+	height: 35px;
+	width: 35px;
+	border-bottom: rgb(20, 255, 51);
+}
+.foto {
+	width: 100px;
+	height: 150px;
+	border-radius: 50%;
+}
