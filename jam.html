@@ -1,0 +1,44 @@
+<html>
+<head>
+
+<title>Say Hello To Jam</title>
+<script type="text/javascript">
+    window.setTimeout("waktu()",1000);
+    function waktu() {
+        var tanggal = new Date();
+        setTimeout("waktu()",1000);
+        document.getElementById("detik").innerHTML = tanggal.getSeconds();
+        document.getElementById("menit").innerHTML = tanggal.getMinutes();
+        document.getElementById("jam").innerHTML = tanggal.getHours();
+    }
+</script>
+<style>
+    h1 
+{
+       
+}
+body
+{
+    background-image: url('https://lh6.googleusercontent.com/proxy/SGN4pdot_m5_Ej1LxSD7trHfN0ZopO1Y-AjHMaWGdGD9GtAOnyzEISjDfvPZYUVY3fVM-I_FwdT67GMz_OqWnNSdm9yPz9Od9-7dYqkxdMVIQuPmTA=w1200-h630-p-k-no-nu');
+    background-size: cover;
+}
+</style>
+
+<style><center>
+    #jam-digital{overflow:hidden; width:350px}
+    #second{float:right; width:100px; height:50px; background-color:#FF618A; margin-left:25px}
+    #minute{float:right; width:100px; height:50px; background-color:#A5B1CB}
+    #hours{float:right; width:100px; height:50px; background-color:#6B9AB8; margin-right:25px}
+    #jam-digital p{color:#000; font-size:36px; text-align:center; margin-top:4px}
+</style>
+
+<body onLoad="waktu()">
+    <div id="jam-digital">
+        <div id="hours"><p id="jam"></p></div>
+        <div id="minute"><p id="menit"></p></div>
+        <div id="second"><p id="detik"></p></div>
+    </div>
+</table>
+</head>
+</body>
+</html>
